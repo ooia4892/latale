@@ -1,0 +1,45 @@
+
+.main_banner ul li div{
+  background-repeat: no-repeat;
+  background-position: 40% 50%;
+  background-size: cover;
+  height:600px
+}
+
+.main_banner li div span{ font-size: 0; line-height: 0; padding: 0;color: #fff0;}
+
+
+.banner01{
+  background-image: url("/img/main_banner/wallpaper_76.png");
+}
+/*배틀 아레나 이벤트 배너*/
+
+.banner02{
+  background-image: url("/img/main_banner/wallpaper_72.jpg");
+}
+/*타르타로스 이벤트 배너*/
+
+.banner03{
+  background-image: url("/img/main_banner/wallpaper_71.jpg");
+}
+/*괴물나무 산 이벤트 배너*/
+
+.banner04{
+  background-image: url("/img/main_banner/wallpaper_76.jpg");
+}
+/*아드리카 이벤트 배너*/
+
+.banner05{
+  background-image: url("/img/main_banner/wallpaper_72.jpg");
+}
+/*타르타로스 이벤트 배너*/
+
+.banner06{
+  background-image: url("/img/main_banner/wallpaper_71.jpg");
+}
+/*괴물나무 산 이벤트 배너*/
+
+.banner07{
+  background-image: url("/img/main_banner/wallpaper_76.jpg");
+}
+/*아드리카 이벤트 배너*/

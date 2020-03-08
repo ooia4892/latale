@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+  <style>
+    .noscroll{
+      overflow-y: hidden;
+    }
+
+    #submit{
+      background-color: white;
+      float: left;
+      position: absolute;
+      top:200px;
+      bottom: 200px;
+      left:600px;
+      right:600px;
+      padding: 20px;
+      min-width: 300px;
+    }
+
+    .dn{
+      display: none;
+    }
+
+    .fe{
+      position: absolute;
+      right:0;
+      top:0;
+      transform: translateY(-100%);
+    }
+
+    .gogopop h3{
+      font-weight: 600;
+      text-align: center;
+    }
+
+    #hoho{
+      background-color: pink;
+    }
+
+    #hoho section{
+      height: 3000px;
+    }
+
+    #hoho h3{
+      color:white;
+      font-weight: 600;
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body class="noscroll">
+  <div id="submit">
+    <div class="dn">
+      <div class="gogopop">
+        <button class="fe">닫기</button>
+        <h3>보기전 꼭 알아두세요!</h3>
+      </div>
+    </div>
+  </div><!--submit-->
+<div id="hoho">
+  <section>
+    <h3>★환영합니다★</h3>
+  </section>
+</div>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $(function(){
+          $('body').addClass('noscroll');
+
+
+
+          $('.fe').click(function(){
+            $('body').removeClass('.noscroll');
+            $('.gogopop').addClass('.dn');
+            });
+          });
+
+        $(function(){
+          alert("환영합니다!")
+        });
+
+        $(function(){
+          $('.').click()
+        });
+
+
+
+      });
+  </script>
+
+
+</body>
+</html>

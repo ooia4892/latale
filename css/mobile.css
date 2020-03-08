@@ -1,0 +1,125 @@
+
+.container, .main_banner_wrap, .menu > ul  > li, .btn_mb_left, .btn_mb_right, .main_banner_wrap, .logo, .game_btn, .community_wrap .container,
+.news_inner > ul > li, .footer_wrap .container{
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}/*.con_inner,*/
+
+
+@media (max-width:1903px) {
+  .mbanner_nav, .service_box{ width:100%}
+  .main_banner_wrap{height:594px; }
+}
+
+@media (max-width:1678px) {
+  #quick-menu{ display: none}
+  .menu > ul  > li{  width: calc(10.9%); }
+}
+
+@media (max-width:1470px) {
+  .mb_nav_container, .slick-dots-hyo{ width:93%}
+  .main_banner_wrap{height:459px; }
+  .logo{left:40px;}
+  .game_btn{width:237px; bottom: -293px; }
+  /* .main_banner{ width:100%;} */
+}
+
+@media (max-width:1200px) {
+  .container_wrap{ width: 100%!important}
+  .container, .con_inner, .community_wrap .container{ width:95%;}
+  .logo{ left:17px;}
+  .mb_nav_container{width:95%}
+  .slick-dots-hyo{width:90%}
+}
+
+
+@media (max-width:1110px){
+  .news_inner{ width:36%}
+  .main_box_warp{ width:32%}
+  .event_banner{ width:26.7%}
+  .second{ width:51%;}
+  .guide_inner{ width:46%;}
+  .news_inner > ul > li{ width: calc(33%);}
+  .best_Fanart li{ height:244px}
+  .footer_logo img{ width:100px;}
+  .ftop a{ font-size: 1.2rem; padding-right: 9px;}
+  .fbottom p{ font-size: 1rem; line-height: 14px;}
+  .ftop{ margin-bottom: 9px;}
+  .footer_wrap .container{ width:700px;}
+}
+
+/*태블릿*/
+@media (max-width:900px){
+  .container, .footer_wrap .container, .class{ width:100%;}
+  .game_btn, .menu, .slick-dots-hyo, .btn_mb_left, .btn_mb_right, .guide_inner, .ranking, .btn_class{
+    display: none !important;}
+  .header_bottom h1:nth-child(2), .mobile_banner, .mb_community_wrap, .cm_tit, .mb_cm_rk, #m_label, .sidebar, .m_login{
+    display: block!important;}
+  .community_wrap, .mb_nav_container{ height: auto;}
+  .mb_nav_container{ white-space: nowrap; text-overflow: ellipsis; overflow-x: hidden;}
+  .naivWrap{ position: fixed; width:100%}
+  .logo{ top:3px; left:-35px; margin-left: 50%;}
+  .logo img{ width:70px;}
+  .header_top{ display: none;}
+  .logo img:nth-child(1){ display: none}
+  .logo img:nth-child(2){ display: block}
+  .header_bottom{ text-align: center; background:#222; padding: 3px 0}
+  .header_bottom .logo{ position: relative; left:0; top:0; margin-left:0; display: inline-block;}
+
+  /*---상단-----------------------------------------------*/
+
+  .news_inner{ width:100%}
+  .mb_nav_container{ width: 95%;}
+  .event_banner, .news_tit, .main_box_warp, .service_box, .free, .best_tit, .community > a, .ranking{
+    display: none;}
+  .con_border, .m_tit, .second .news_tit, .art{ display: block;}
+  .slick-dots-hyo_two { display: block; width:98%; margin:0 auto; overflow: hidden;}
+  .slick-dots-hyo_two li{ border-left: none; line-height: 44px; text-align: left;}
+  .mbanner_nav{ padding: 1px 0px;}
+  .slick-dots-hyo_two p{ line-height: 40px;}
+  .con_wrap{ padding: 20px 0}
+  .news_box > dl{ border-top: none;}
+  .scd_bd{ border-top:solid 1px #bfbfbf !important;}
+  .news_inner > ul > li{ width: calc(17%)}
+  .con_inner .second > ul > li{ width: calc(22%)}
+  .news li{ margin-bottom:5px}
+  .news_inner{ height:183px}
+  .news_box dd{ border: none;}
+  .news_tit a{ font-size:1.5rem; color:#262626;}
+  .community_wrap{ padding: 0; margin-top: 63px;}
+  .best_Fanart{ margin-top: 18px}
+  .best_Fanart li{ width:calc(48% - 0.6%); height:350px; margin-bottom: 19px;}
+  .bbs{ padding: 20px 0;}
+  .mb_cm_rk{  padding-top: 8px; padding-bottom: 18px;}
+
+  /* .second > .new_box:last-child > .news > dd{ border: none;} */
+  /*---컨텐츠-------------------------------------------------*/
+  .main_class{ margin-bottom: 35px;}
+  .footer_wrap .container { padding: 29px 0; text-align: center;}
+  .footer_logo{ display: none;}
+  .m_footer_logo{ display: block;}
+  .footer{float: none;}
+  .ftop{margin-bottom: 16px;}
+  .ftop li:nth-child(1), .ftop li:nth-child(3), .ftop li:nth-child(4){
+    display: none;}
+  .fbottom{ float: none;}
+  /*---하단-------------------------------------------------*/
+}
+
+
+
+/*모바일*/
+@media (max-width:480px){
+  .con_inner, .community_wrap .container{ width:92%}
+  .mobile_banner{ height:106px}
+  .tit{ font-size: 1.7rem}
+  .news_inner > ul > li{ width: calc(25%);}
+  .con_inner .second > ul > li{ width: calc(33%)}
+  .news_inner > ul > li{ width: calc(31%);}
+  .best_Fanart li{ height: 150px;}
+  .best_Fanart li{ width: calc(46% - -0.4%); margin: 0 1.8%; margin-bottom: 12px;}
+  .mb_cm_rk li{ width:120px; height:120px; margin: 0 5px; }
+  .mb_cm_rk li:first-child{ margin-left: 20px;}
+  .fbottom p:first-child{ display: none;}
+}

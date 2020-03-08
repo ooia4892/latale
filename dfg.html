@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <title>Document</title>
+  <style>
+
+    body{
+      padding: 50px
+    }
+
+    table{
+      width:50%;
+    }
+
+
+    thead,tbody,tfoot,tr, td,th{
+      border:1px solid gray;
+      width:10%;
+      height:100px;
+      text-align: center;
+    }
+
+    .dd{ width:30%}
+
+  </style>
+
+</head>
+
+<body>
+  <!-- <table>
+    <thead>
+      <tr>
+        <th>안녕하세요</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>소개</td>
+        <td>넵넵넵</td>
+      </tr>
+
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td>끝!</td>
+      </tr>
+    </tfoot>
+  </table> -->
+
+
+  <!-- <table>
+
+    <tr>
+      <td rowspan="2"></td>
+      <td colspan="2">상단메뉴</td>
+
+    </tr>
+
+    <tr class="bbs">
+      <td class="aa"></td>
+      <td>퀵메뉴</td>
+    </tr>
+
+    <tr>
+      <td colspan="2"></td>
+      <td>패밀리메뉴</td>
+    </tr>
+
+  </table> -->
+
+  <table>
+    <tr>
+      <td>아이디</td>
+      <td class="dd" colspan="4"></td>
+      <td rowspan="2"></td>
+    </tr>
+
+    <tr>
+      <td>패스워드</td>
+      <td class="dd" colspan="4"></td>
+    </tr>
+
+    <tr>
+      <td>보안</td>
+      <td class="dd" colspan="5">아이디 비밀번호 찾기</td>
+    </tr>
+  </table>
+</body>
+</html>

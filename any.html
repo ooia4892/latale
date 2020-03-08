@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <style>
+  #grad1 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, #baffe6 20%, #ffd7db 80%); /* Standard syntax (must be last) */
+    animation:graAni 1s infinite}
+    @keyframes graAni {
+      0%{
+        background-image: linear-gradient(#baffe6,#ffd7db);
+      }
+      100%{
+        background-image: linear-gradient(#ffd7db,#baffe6);
+      }
+  }
+  </style>
+</head>
+<body>
+  <div id="grad1"></div>
+
+</body>
+</html>

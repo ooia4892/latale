@@ -1,0 +1,497 @@
+<?php
+$mainPage = true;
+include_once('./top.php');
+?>
+
+<script src="/js/main_slider.js"></script>
+
+
+      <div class="main_banner_wrap">
+        <div class="mb_container">
+
+          <div class="main_banner clearfix">
+              <ul>
+                <li><a target="_blank" href="http://latale.happyoz.com/event/2019/4q_update2/index.asp?intro"><div class="banner01"><span>RETURN -배틀 아레나-</span></div></a></li>
+                <li><a target="_blank" href="http://latale.happyoz.com/event/2019/2q_update/index.asp"><div class="banner02"><span>히어로즈X</span></div></a></li>
+                <li><a target="_blank" href="http://latale.happyoz.com/event/2019/3q_update/index.asp?intro"><div class="banner03"><span>괴물나무 산</span></div></a></li>
+                <li class="ddf"><a target="_blank" href="http://latale.happyoz.com/event/2019/4q_update/index.asp?intro"><div class="banner04"><span>아드리카</span></div></a></li>
+                <li><a target="_blank" href="http://latale.happyoz.com/event/2019/2q_update/index.asp"><div class="banner05"><span>히어로즈X</span></div></a></li>
+                <li><a target="_blank" href="http://latale.happyoz.com/event/2019/3q_update/index.asp?intro"><div class="banner06"><span>괴물나무 산</span></div></a></li>
+                <li><a target="_blank" href="http://latale.happyoz.com/event/2019/4q_update/index.asp?intro"><div class="banner07"><span>아드리카</span></div></a></li>
+              </ul>
+          </div>
+
+          <div class="mbanner_nav">
+            <div class="mb_nav_container clearfix">
+
+              <ul class="slick-dots-hyo clearfix">
+                <li><p>RETURN -배틀 아레나-</p><span>새로워진 격투장이 찾아온다!</span></li>
+                <li><p>히어로즈X</p><span>빛의 수호자</span></li>
+                <li><p>괴물나무 산</p><span>조용한숲을 뒤흔드는 힘!</span></li>
+                <li><p>아드리카</p><span>여신이 사랑한 땅</span></li>
+                <li><p>히어로즈X</p><span>빛의 수호자</span></li>
+                <li><p>괴물나무 산</p><span>조용한숲을 뒤흔드는 힘!</span></li>
+                <li><p>아드리카</p><span>여신이 사랑한 땅</span></li>
+              </ul>
+
+              <ul class="slick-dots-hyo_two clearfix">
+                <li><span>RETURN -배틀 아레나-</span><span>새로워진 격투장이 찾아온다!</span></li>
+                <li><span>히어로즈X</span><span>빛의 수호자</span></li>
+                <li><span>괴물나무 산</span><span>조용한숲을 뒤흔드는 힘!</span></li>
+                <li><span>아드리카</span><span>여신이 사랑한 땅</span></li>
+                <li><span>히어로즈X</span><span>빛의 수호자</span></li>
+                <li><span>괴물나무 산</span><span>조용한숲을 뒤흔드는 힘!</span></li>
+                <li><span>아드리카</span><span>여신이 사랑한 땅</span></li>
+              </ul>
+                <div class="btn_mb_left"></div>
+                <div class="btn_mb_right"></div>
+            </div>
+          </div>
+
+        </div><!--mb_container_end-->
+      </div><!--main_banner_wrap_end-->
+
+<script type="text/javascript">
+  $('.tit a').click(function(){
+    $('.tit a').removeClass()
+      $(this).addClass('on')
+  })
+</script>
+
+      <!-- 컨텐츠-->
+      <!-- <div class="service_box">
+        <div class="service container">
+          <span class="moto">
+            <a href="#"><img src="/img/service/moto.png" alt="moto"></a>
+          </span>
+        </div>
+      </div> -->
+
+        <div class="container_wrap container">
+        <div class="con_wrap">
+          <div id="quick-menu">
+            <div class="qm-container">
+              <ul>
+                <li><a class="oz" href="#a">OZ</a></li>
+                <li><a href="#a"><i class="pc"></i></a></li>
+                <li><a href="#a"><i class="coupon"></i></a></li>
+                <li><a class="premium" href="#a">P</a></li>
+                <li><a href="#a"><i class="support"></i></a></li>
+                <li><a class="top" href="#a">TOP</a></li>
+              </ul>
+            </div>
+          </div><!--quick-menu_end-->
+          <div class="con_border"></div>
+          <div class="con_inner clearfix">
+            <div class="news_inner clearfix" id='tab1'>
+
+              <div class="notice notice_first ft_cnt click">
+              <!-- <ul class="clearfix" style='margin-bottom:20px'> -->
+
+              <?php echo latest("notice_main", "notice", 5, 35); ?>
+              <!-- <p class="notice_st">☞ 서브클래스 [대격변] 패치 안내 [시스템 개선] ■ 서브클래스 획득 방식이 변경되었습니다.
+              ▷ 140레벨 이상 3차, 4차 직업인 경우 각 sdgdsgdsgsgdsgsdgdsg</p> -->
+              </div>
+
+                 <!-- <li class="notice click"> -->
+                  <!--<h3 class="tit new"><a href="#a" class="ee"><span>공지사항</span></a></h3>
+                    <dl class="news">
+                      <dt class="news_tit">
+                        <strong><a href="http://latale.happyoz.com/news/notice/read.asp?Mop4s3EFcTP32dDnE2jnLEf2KbgqI0uCNSk16XonI1RskyM2xYYL71ovrVE1EViGr2hOvwN0hLGIR2kdBzn4">
+                        [패치] 서브 클래스 대격변 패치dsgsddsgsdgs</a> <img src="/img/icon/new.png"><span>2019-07-17</span></strong>
+
+                        <p>☞ 서브클래스 [대격변] 패치 안내 [시스템 개선] ■ 서브클래스 획득 방식이 변경되었습니다.
+                        ▷ 140레벨 이상 3차, 4차 직업인 경우 각 sdgdsgdsgsgdsgsdgdsg</p>
+                      </dt>
+
+                      <dd>
+                        <ul>
+                          <li><a href="#a"><span class="lagel">패치</span><span class="notice_bbs">히어로즈X 업데이트 안내</span></a> <span class="news_date">2019-12-11</span></li>
+                          <li><a href="#a"><span class="lagel">패치</span><span class="notice_bbs">7월 17일(수) 패치 안내(수정)</span></a> <span class="news_date">2019-10-08</span></li>
+                          <li><a href="#a"><span class="lagel">공지</span><span class="notice_bbs">현재 확인된 오류 사항 안내(수정)</span></a> <span class="news_date">2019-07-10</span></li>
+                          <li><a href="#a"><span class="lagel">점검</span><span class="notice_bbs">7월 17일(수) 서버 긴급점검 안내(수정)</span></a> <span class="news_date">2019-04-17</span></li>
+                          <li class="m_tit"><a href="#"><span class="lagel">점검</span><span class="notice_bbs">7월 17일(수) 서버 긴급점검 안내(수정)</span></a> <span class="news_date">2019-04-17</span></li>
+
+                        </ul>
+                      </dd>
+                    </dl>-->
+
+                <!-- </li> -->
+
+
+                <div class="notice notice_first ft_cnt">
+
+                      <?php echo latest("notice_main", "event", 6, 35); ?>
+                </div>
+                  <!-- <li class="notice"> -->
+                    <!-- <h3 class="tit new"><a href="#a"><span>&ensp;이벤트</span></a></h3>
+                      <dl class="news">
+                        <dt class="news_tit">
+                          <strong><a href="#">Latale On Stage</a> <img src="/img/icon/new.png"> </strong>
+                          <p>13주년에도 변함없이 즐겁게 놀아볼까요~!</p>
+                        </dt>
+
+                        <dd>
+                          <ul>
+                            <li><a href="#"><span class="notice_bbs">서브 클래스를 알려줘!</span></a> <span class="news_date">2019-12-11</span></li>
+                            <li><a href="#"><span class="notice_bbs">Latale X Drawholic 콜라보레이션!</span></a> <span class="news_date">2019-10-08</span></li>
+                            <li><a href="#"><span class="notice_bbs">히어로즈 X 영상 공유 이벤트</span></a> <span class="news_date">2019-07-10</span></li>
+                            <li><a href="#"><span class="notice_bbs">13주년 생일빵! 축하빵!</span></a> <span class="news_date">2019-04-17</span></li>
+                            <li><a href="#"><span class="notice_bbs">라테일 On Air 안내</span></a> <span class="news_date">2019-04-17</span></li>
+                          </ul>
+                        </dd>
+                      </dl> -->
+
+                  <!-- </li> -->
+                  <div class="notice notice_first ft_cnt">
+
+                      <?php echo latest("notice_main", "episode", 6, 35); ?>
+                  </div>
+                    <!-- <li class="notice"> -->
+                    <!--   <h3 class="tit new"><a href="#a"><span>업데이트</span></a></h3>
+                        <dl class="news">
+                          <dt class="news_tit">
+                            <strong><a href="http://latale.happyoz.com/event/2019/4q_update2/index.asp?intro">RETURN -배틀 아레나-</a> <img src="/img/icon/new.png">
+                            <span>2020-01-15</span></strong>
+                            <p>새로워진 격투장이 찾아온다! 라테일격투 프리시즌 오픈!</p>
+                          </dt>
+
+                          <dd>
+                            <ul>
+                              <li><a href="#"><span class="lagel">에피소드 25.</span><span class="notice_bbs">아드리카</span></a> <span class="news_date">2019-12-11</span></li>
+                              <li><a href="#"><span class="lagel">에피소드 번외편.</span><span class="notice_bbs">괴물나무 산 업데이트</span></a> <span class="news_date">2019-10-08</span></li>
+                              <li><a href="#"><span class="lagel">에피소드 24.</span><span class="notice_bbs">히어로즈 X</span></a> <span class="news_date">2019-07-10</span></li>
+                              <li><a href="#"><span class="lagel">에피소드 번외편.</span><span class="notice_bbs">아말룬 사막 업데이트</span></a> <span class="news_date">2019-04-17</span></li>
+                              <li><a href="#"><span class="lagel">에피소드 23-2.</span><span class="notice_bbs">여신의 탄생 [part3.초인의 서]</span></a> <span class="news_date">2019-01-17</span></li>
+                            </ul>
+                          </dd>
+                        </dl>-->
+
+                    <!-- </li> -->
+
+                <!-- </ul> -->
+               <!-- <span class="bar"></span> -->
+
+            </div><!--news_inner_end-->
+
+      <script src="/js/contents.js"></script>
+
+            <!--main_box_warp-->
+            <!--
+              <div class="single-item-rtl clearfix">
+                <a href="#">뜨는 이야기 <span></span></a>
+                <ul>
+                  <li><a href=#a><div class="news01"></div></a></li>
+                  <li><a href=#a><div class="news02"></div></a></li>
+                  <li><a href=#a><div class="news03"></div></a></li>
+                  <li><a href=#a><div class="news04"></div></a></li>
+                </ul>
+              </div>
+           -->
+            <div class="main_box_warp">
+              <?php echo latest('pic_list', 'blog', 3, 35); ?>
+            </div>
+            <!--main_box_warp_end-->
+
+
+
+        <!-- <script type="text/javascript">
+            $(document).ready(function(){
+              $('.main_box_metro u').slick({
+                slidesToShow: 1,
+                 slidesToScroll: 1,
+                 arrows: false,
+                 autoplay: true,
+                 autoplaySpeed: 3000,
+              });
+            });
+          </script> --><!--슬라이드형식-->
+
+
+            <div id="m-login_wrap">
+              <div class="m-login_inner clearfix">
+                <?php echo outlogin("outlogin_pc"); ?>
+              </div>
+                <div class="service_box">
+                  <ul class="clearfix">
+                    <li><a href="#a"></a><p>MOTO</p></li>
+                    <li><a href="#a"></a><P>게임시간선택</P></li>
+                    <li><a href="#a"></a><P>IP관리</P></li>
+                    <li><a href="#a"></a><P>휴면계정</P></li>
+                  </ul>
+                </div>
+            </div>
+
+          </div> <!--con_inner_end-->
+         </div>  <!--con_wrap_end-->
+
+         <div class="mobile_banner">
+           <ul>
+             <li><a href="#a"></a></li>
+             <li><a href="#a"></a></li>
+             <li><a href="#a"></a></li>
+             <li><a href="#a"></a></li>
+           </ul>
+         </div>
+    </div> <!--container_wrap_end -->
+   <!--컨텐츠 끝-->
+
+
+  <!--커뮤니티-------------------------------------------------------------------------------->
+
+  <div class="community_wrap">
+    <div class="community_inner container clearfix">
+      <span class="cm_tit pan">이달의 팬아트</span>
+    <div class="community">
+        <div class="best_tit"></div>
+        <a href="#a"><img src="/img/community/more.png" alt="커뮤니티 더보기"></a>
+
+        <div class="best_Fanart">
+          <ul class="clearfix">
+            <li>
+              <a href="#a"><div class="cm_box"><img src="/img/community/best-ucc/best-pan_art.png" alt="베스트 팬아트"></div>
+                <div class="name_box">
+                  <p>사이키커</p>
+                  <p>망장르</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#a"><div class="cm_box"><img src="/img/community/best-ucc/best-screensot.png" alt="베스트 스크린샷"></div>
+                <div class="name_box">
+                  <p>[주근깨 소년 소녀 의상]하세요</p>
+                  <p>물떡</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#a"><div class="cm_box"><img src="/img/community/best-ucc/best-cartoon.png" alt="베스트 만화"></div>
+                <div class="name_box">
+                  <p>[우행] 우리 기리니♪</p>
+                  <p>최고관리자</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#a"><div class="cm_box"><img src="/img/community/best-ucc/best-coordi.png" alt="베스트 코디"></div>
+                <div class="name_box">
+                  <p>겨울 컨셉 코디</p>
+                  <p>미싱유</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+
+<script src="/js/ranking.js"></script>
+      <div class="ranking">
+        <div class="ranking_tit"></div><!-- <img src="/img/community/ranking.png" alt=""> -->
+        <a href="#a"><img src="/img/community/more.png" alt="랭킹 더보기"></a>
+
+        <div class="ranking_slider">
+          <!-- <button type="button" name="rk-button"></button> -->
+          <div class="best_ranking">
+            <div class="best_rk-track clearfix">
+              <div class="rk_box">1</div>
+              <div class="rk_box">2</div>
+              <div class="rk_box">3</div>
+              <div class="rk_box">4</div>
+              <div class="rk_box">5</div>
+              <div class="rk_box">6</div>
+              <div class="rk_box">7</div>
+              <div class="rk_box">8</div>
+              <div class="rk_box">9</div>
+              <div class="rk_box">10</div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div><!--community_inner_end-->
+  </div><!--community_wrap_end-->
+
+<!-------------커뮤니티 모바일-------------------------------------------------------------------------------->
+
+    <div class="mb_cm_rk community_wrap">
+      <div class="community_inner clearfix">
+        <span class="cm_tit rk">금주의 랭킹</span> <span class="more_mb"><a href="#a">더보기></a></span>
+
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+             <div class="swiper-slide">Slide 1</div>
+             <div class="swiper-slide">Slide 2</div>
+             <div class="swiper-slide">Slide 3</div>
+             <div class="swiper-slide">Slide 4</div>
+             <div class="swiper-slide">Slide 5</div>
+             <div class="swiper-slide">Slide 6</div>
+             <div class="swiper-slide">Slide 7</div>
+             <div class="swiper-slide">Slide 8</div>
+             <div class="swiper-slide">Slide 9</div>
+             <div class="swiper-slide">Slide 10</div>
+          </div>
+         <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var swiper = new Swiper('.swiper-container', {
+        cssMode: true,
+        mousewheel: true,
+        keyboard: true,
+      });
+    </script>
+
+  <!---------커뮤니티 모바일 끝-------------------------------------------------------------------------------->
+
+  <!-- <div class="community cm_mb">
+    <div class="best_tit"></div>
+    <a href="#a"><img src="/img/community/more.png" alt="커뮤니티 더보기"></a>
+
+    <div class="best_Fanart">
+      <ul>
+        <li><div class="cm_box"><img src="" alt=""></div></li>
+        <li><div class="cm_box"><img src="" alt=""></div></li>
+        <li><div class="cm_box"><img src="" alt=""></div></li>
+        <li><div class="cm_box"><img src="" alt=""></div></li>
+      </ul>
+    </div>
+  </div> -->
+
+
+<!--커뮤니티 끝-------------------------------------------------------------------------------->
+
+
+<!--커뮤니티 게시판----------------------------------------------------------------------------->
+<div class="container_wrap container bbs">
+
+  <!-- <div class="con_wrap list"> -->
+    <div class="con_border"></div> <!--태블릿/모바일에서만 노출-->
+    <div class="con_inner clearfix">
+      <div class="news_inner second clearfix" id='tab2'>
+        <ul>
+
+          <li class="notice click">
+            <h3 class="tit new"><a href="#a" class="ee"><span>자유 게시판</span></a></h3>
+              <dl class="news">
+                <dt class="news_tit">
+                  <div class="free"></div>
+                  <strong><a href="http://latale.happyoz.com/news/notice/read.asp?Mop4s3EFcTP32dDnE2jnLEf2KbgqI0uCNSk16XonI1RskyM2xYYL71ovrVE1EViGr2hOvwN0hLGIR2kdBzn4">
+                  [패치] 서브 클래스 대격변 패치dsgsddsgsdgs</a> <img src="/img/icon/new.png"><span>2019-07-17</span></strong>
+
+                  <p>최근에 다시복귀했다가 옛날보다는 비교적 고렙( 아직 쪼렙이지만)쯤 들어왔는데용 그 제일 처음놀랐던거는..
+                    으슬마을에서 분명히 한복입은 귀신캐릭터 되게 예뻣던걸로기억하는데
+                    120lv에 "홍란"이라는 몹이 진짜 너무 못생기고 그리다 만것처럼</p>
+                </dt>
+
+                <dd class="scd_bd">
+                  <ul>
+                    <li><a href="#"><span class="lagel">패치</span><span class="notice_bbs">히어로즈X 업데이트 안내</span></a> <span class="news_date">2019-12-11</span></li>
+                    <li><a href="#"><span class="lagel">패치</span><span class="notice_bbs">7월 17일(수) 패치 안내(수정)</span></a> <span class="news_date">2019-10-08</span></li>
+                    <li><a href="#"><span class="lagel">공지</span><span class="notice_bbs">현재 확인된 오류 사항 안내(수정)</span></a> <span class="news_date">2019-07-10</span></li>
+                    <li><a href="#"><span class="lagel">점검</span><span class="notice_bbs">7월 17일(수) 서버 긴급점검 안내(수정)</span></a> <span class="news_date">2019-04-17</span></li>
+                  </ul>
+                </dd>
+              </dl>
+          </li>
+
+
+            <li class="notice">
+              <h3 class="tit new"><a href="#a"><span>공략 게시판</span></a></h3>
+                <dl class="news">
+                  <dt class="news_tit">
+                    <div class="free"></div>
+                    <strong><a href="#">Latale On Stage</a> <img src="/img/icon/new.png"> </strong> <!--종료된 이벤트_팝업창으로 알림-->
+                    <span>2019-07-17</span>
+                    <p>13주년에도 변함없이 즐겁게 놀아볼까요~!</p>
+                  </dt>
+
+                  <dd class="scd_bd">
+                    <ul>
+                      <li><a href="#"><span class="notice_bbs">서브 클래스를 알려줘!</span></a> <span class="news_date">2019-12-11</span></li>
+                      <li><a href="#"><span class="notice_bbs">Latale X Drawholic 콜라보레이션!</span></a> <span class="news_date">2019-10-08</span></li>
+                      <li><a href="#"><span class="notice_bbs">히어로즈 X 영상 공유 이벤트</span></a> <span class="news_date">2019-07-10</span></li>
+                      <li><a href="#"><span class="notice_bbs">13주년 생일빵! 축하빵!</span></a> <span class="news_date">2019-04-17</span></li>
+                      <li><a href="#"><span class="notice_bbs">라테일 On Air 안내</span></a> <span class="news_date">2019-04-17</span></li>
+                    </ul>
+                  </dd>
+                </dl>
+            </li>
+
+              <li class="notice">
+                <h3 class="tit new"><a href="#a"><span>유저갤러리</span></a></h3>
+                  <dl class="news">
+                    <dt class="news_tit">
+                      <div class="free art"><a href="http://latale.happyoz.com/event/2019/4q_update2/index.asp?intro"></a></div>
+                    </dt>
+
+                    <dd class="scd_bd">
+                      <ul>
+                        <li><a href="#"><span class="lagel">에피소드 25.</span><span class="notice_bbs">아드리카</span></a> <span class="news_date">2019-12-11</span></li>
+                        <li><a href="#"><span class="lagel">에피소드 번외편.</span><span class="notice_bbs">괴물나무 산 업데이트</span></a> <span class="news_date">2019-10-08</span></li>
+                        <li><a href="#"><span class="lagel">에피소드 24.</span><span class="notice_bbs">히어로즈 X</span></a> <span class="news_date">2019-07-10</span></li>
+                        <li><a href="#"><span class="lagel">에피소드 번외편.</span><span class="notice_bbs">아말룬 사막 업데이트</span></a> <span class="news_date">2019-04-17</span></li>
+                        <li class="m_tit"><a href="#"><span class="lagel">에피소드 23-2.</span><span class="notice_bbs">여신의 탄생 [part3.초인의 서]</span></a> <span class="news_date">2019-01-17</span></li>
+                      </ul>
+                    </dd>
+                  </dl>
+              </li>
+        </ul>
+         <!-- <span class="bar"></span> -->
+      </div><!--news_inner_end-->
+
+      <div class="guide_inner">
+        <div class="guide">
+
+        </div>
+        <div class="lawiki">
+          <a href="#a"><span class="lawiki_img"></span><span class="lawiki_txt">La Wike</span></a>
+
+        </div>
+      </div>
+    </div> <!--con_inner end-->
+  <!-- </div> <!--con_wrap end-->
+</div> <!--container_wrap end-->
+
+<!--커뮤니티 게시판 끝----------------------------------------------------------------------------->
+
+<script src="/js/contents.js"></script>
+
+
+  <section class="main_class">
+    <div class="class">
+      <div class="class_img">
+        <div class="class01"></div>
+        <div class="class02"></div>
+        <div class="class03"></div>
+        <div class="class04"></div>
+      </div>
+
+      <div class="class_txt">
+
+      </div>
+
+
+      <div class="btn_class">
+        <div class="class_left">
+          <img src="/img/btn/class_left.png" alt="클래스 왼쪽 버튼">
+        </div>
+
+        <div class="class_right">
+          <img src="/img/btn/class_right.png" alt="클래스 오른쪽 버튼">
+        </div>
+      </div>
+
+    </div>
+  </section><!--main_class_end-->
+
+
+<?php include_once('./bottom.php'); ?>
